@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paddingtop5 {
+    padding-top: 5%;
+}
+
+.paddingtop2 {
+    padding-top: 2%;
+}
+
+.paddingtop10 {
+    padding-top: 10%;
+}
+
+.paddingtop15 {
+    padding-top: 57px;
+    left: 20px;
+    font-weight: normal;
+}
+
+.offen {
+    mask-image: url(/img/Gruppe\ 1.svg);
+}
