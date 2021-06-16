@@ -32,11 +32,11 @@ void loop() {
 
   //TEMPERATUR
   DHT.read11(dht_apin);
-    //Serial.print("temperature = ");
-    //Serial.print(DHT.temperature); 
-    //Serial.println("C  ");
-    Serial.println(DHT.temperature);
-    delay(2000);
+  //Serial.print("temperature = ");
+  //Serial.print(DHT.temperature);
+  //Serial.println("C  ");
+  //Serial.println(DHT.temperature);
+  //millis();
 
   //HOCH UND RUNTER SCHALTER
   boolean buttonState;
@@ -82,7 +82,7 @@ void serialEvent() {
 
   while (Serial.available()) {
     char inChar = Serial.read();
-    //Serial.println(inChar);
+    Serial.println(inChar);
     switch (inChar) {
 
       case 'O':
